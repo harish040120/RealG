@@ -10,7 +10,7 @@ type Detection = {
   bbox: [number, number, number, number];
 };
 
-const FRAME_INTERVAL = 200; // ms, ~5 FPS
+const FRAME_INTERVAL = 50; // ms, ~5 FPS
 
 const CCTVMonitoring: React.FC = () => {
   const [hasPermission, setHasPermission] = useState(false);
